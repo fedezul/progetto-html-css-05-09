@@ -13,14 +13,17 @@ body {
 
 nav h1 {
     margin-right: 20rem;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 4rem;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background-color: #8D8E8E;
+    padding: 0.5rem;
 }
 
 nav a {
@@ -28,6 +31,7 @@ nav a {
     color: white;
     padding: 1rem 1.25rem;
     transition: background-color 0.3s ease;
+    font-family: "Oswald", sans-serif;
 }
 
 nav a:hover {
@@ -38,5 +42,57 @@ img {
     width: 3rem;
     height: 3rem;
     border-radius: 2rem;
-    margin-right: 1rem;
+    margin-right: 2rem;
+}
+
+#Home {
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+    min-height: 80vh;
+    padding: 8rem 2rem 0 2rem;
+    text-align: center;
+}
+
+#Home p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    max-width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+    padding: 2rem;
+    flex-wrap: wrap; 
+    text-align: left;
+    gap: 2rem;
+}
+
+.footer-left {
+    flex: 1;
+}
+
+.footer-center {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footer-center a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-center a:hover {
+    color: #274690;
 }
