@@ -108,6 +108,44 @@ nav img {
     font-size: 1.2rem;
 }
 
+.gallery-section {
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.gallery-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-family: "Oswald", sans-serif;
+    color: white; 
+    text-transform: uppercase;
+}
+
+.images-grid-up,
+.images-grid-down {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem; 
+    margin-bottom: 1.5rem;
+}
+
+.gallery-section img {
+    width: 12.5rem; 
+    height: 12.5rem;
+    object-fit: cover;
+    border-radius: 0.8rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.3); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-section img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.4);
+}
+
+
 footer {
     display: flex;
     justify-content: space-between;
